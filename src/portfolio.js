@@ -286,479 +286,310 @@ const projects = {
   data: [
     {
       id: "0",
-      name: "Keep Calm and Carry On",
-      url: "https://github.com/harikanani/Keep-Calm-and-Carry-On.github.io",
+      name: "Uptaste",
+      subtitle: "Tiffin based subscription service",
+      image: "/uptaste/bg.png",
+      screenshots: [
+        "/uptaste/1.png",
+        "/uptaste/2.png",
+        "/uptaste/3.png",
+        "/uptaste/4.png",
+        "/uptaste/5.png",
+        "/uptaste/6.png",
+        "/uptaste/7.png",
+      ],
       description:
-        "This platform enables users to practice Augmented Reality meditation, play stress burster games, track task completion and engage in motivational exercises to cope with stress and anxiety at work.  ",
+        "This is Food ordering and Tiffin based subscription service. where user can subscribe to lunch and dinner of 15 or 30 days package. It Includes: \n ✓ Meal selection with type and time selection\n ✓ Filter meal by categories like, Mexicans .. etc\n ✓ Apply Coupon code to get discount\n ✓ Online payment , COD options while ordering\n ✓ PDF invoice generate\n ✓ Wallet money management",
       languages: [
         {
-          name: "HTML5",
-          iconifyClass: "logos-html-5",
+          name: "Kotlin",
+          iconifyClass: "cib:kotlin",
+        }
+      ],
+      links: [
+        {
+          name: "Live Demo",
+          url:
+            "https://uptaste.in/",
+          iconifyClass: "mdi:web",
+        }
+      ],
+    },
+    {
+      id: "0",
+      name: "Yardie",
+      subtitle: "On Demand Lawn Mowing and Gardening Service",
+      image: "/yardie/bannerBG.png",
+      screenshots: [
+        "/yardie/1.jpg",
+        "/yardie/2.jpg",
+        "/yardie/3.jpg",
+        "/yardie/4-1.jpg",
+        "/yardie/4.jpg",
+        "/yardie/5.jpg",
+        "/yardie/6.jpg",
+        "/yardie/6-1.jpg",
+        "/yardie/7.jpg",
+        "/yardie/8.jpg",
+        "/yardie/9.jpg",
+        "/yardie/10.jpg",
+        "/yardie/11.jpg",
+        "/yardie/12.jpg",
+        "/yardie/13.jpg",
+      ],
+      description:
+        "Yardie offers fast, easy and reliable lawn mowing and gardening solutions at your fingertips. Whether the job involves cutting, pruning or cleaning the yard, a reliable Yardie Partner will do it all while you sit back, relax and enjoy. Get notified when the job is accepted, started and completed. Simply approve the work and pay to the Yardie straight from the App.",
+      languages: [
+        {
+          name: "Kotlin",
+          iconifyClass: "cib:kotlin",
+        }
+      ],
+      links: [
+      ],
+    },
+    {
+      id: "1",
+      name: "Zoomin: Frames, Prints & Gifts",
+      subtitle: "Photo printing app",
+      image: "/zoomin/logo.webp",
+      screenshots: [
+        "/zoomin/1.webp",
+        "/zoomin/2.webp",
+        "/zoomin/3.webp",
+        "/zoomin/4.webp",
+      ],
+      description:
+        "Printing photos onto anything(Photo Books, Collage posters, Photo prints, Calendars, Mugs, Magnets, Home decor, Custom bag tag, etc) and everything, this app provides customisation as easy as clicking a button. Perfect for when you're looking to change your decor, treat a friend, or just put a smile on your face.",
+      languages: [
+        {
+          name: "Kotlin",
+          iconifyClass: "cib:kotlin",
+        }
+      ],
+      links: [
+        {
+          name: "Play Store",
+          url: "https://play.google.com/store/apps/details?id=com.zoomin.zoominphotoprints&hl=en_IN",
+          iconifyClass: "mage:playstore",
         },
         {
-          name: "CSS3",
-          iconifyClass: "logos-css-3",
+          name: "Live Demo",
+          url:
+            "https://uptaste.in/",
+          iconifyClass: "mdi:web",
+        }
+      ],
+    },
+    {
+      id: "2",
+      name: "BellaHealth",
+      subtitle: "Rapid Covid-19 Health Checkup App",
+      image: "/bellahealth/bg.png",
+      screenshots: [
+        "/bellahealth/1.png",
+        "/bellahealth/2.png",
+        "/bellahealth/3.png",
+        "/bellahealth/4.png",
+        "/bellahealth/5.png",
+        "/bellahealth/6.png",
+        "/bellahealth/7.png",
+        "/bellahealth/8.png",
+        "/bellahealth/9.png",
+        "/bellahealth/10.png",
+        "/bellahealth/11.png",
+        "/bellahealth/12.png",
+        "/bellahealth/13.png",
+        "/bellahealth/14.png",
+        "/bellahealth/15.png",
+        
+      ],
+      description:
+        "This application provides a simple, intuitive way to test for COVID-19 in the privacy of your own home. This conversational experience is connected to the Quidel QuickVue OTC At-Home COVID-19 test. By following the conversational tutorials with an application, you’ll have step-by-step support to take your test with confidence.",
+      languages: [
+        {
+          name: "Kotlin",
+          iconifyClass: "cib:kotlin",
+        }
+      ],
+      links: [
+        
+      ],
+    },
+    {
+      id: "4",
+      name: "Oriscene",
+      subtitle: "Social networking app",
+      image: "/oriscene/bg.png",
+      screenshots: [
+        "/oriscene/1.png",
+        "/oriscene/2.png",
+        "/oriscene/3.png",
+        "/oriscene/6.png",
+        "/oriscene/7.png",
+        "/oriscene/8.png",
+        "/oriscene/9.png",
+        "/oriscene/10.png",
+        "/oriscene/11.png",
+        "/oriscene/12.png",
+        "/oriscene/13.png",
+        
+      ],
+      description:
+        "Today's world it is all about digital information. You have it. They want it. Oriscene helps to make that happen. Share your posts, photos, and videos like you already do. With Oriscene you’ll watch as they rise or fall in rank according to how you and fellow users rate what you see. This application is about sharing and selling the digital information to the world and brings sellers and buyers under a single platform. So that the users don’t have to switch apps when they want to avail or sell their digital media. This application uses extraordinary UI/UX features which are user friendly and very easy to use.Moreover, in this application user could register themselves as Buyer, Seller or Both. Also, this application uses Orcoins – currency and that could be purchased from in-app purchases.",
+      languages: [
+        {
+          name: "Kotlin",
+          iconifyClass: "cib:kotlin",
         },
         {
-          name: "NodeJs",
-          iconifyClass: "logos-nodejs",
+          name: "Android Java",
+          iconifyClass: "fluent:document-java-16-regular",
+        }
+      ],
+      links: [
+        
+      ],
+    },
+    {
+      id: "5",
+      name: "Jodi",
+      subtitle: "Dating app",
+      image: "/jodi/bannerBG.png",
+      screenshots: [
+        "/jodi/1.png",
+        "/jodi/2.png",
+        "/jodi/3.png",
+        "/jodi/4.png",
+        "/jodi/5.png",
+        "/jodi/6.png",
+        "/jodi/7.png",
+        
+      ],
+      description:
+        "The JODI is the new dating application that allows your friends and family to interact with you in the matchmaking process! Your friends can get competitive with the Sidekick stats on the number of matches which approved by you. This will make sure that they are choosing the right people for you to connect with! Once the match is suggested, only you can complete the match and begin communication with the other single person if they accept too.If you know your friends and family who is looking for a date, then you become a sidekick user and help to find matches for them with this app! So it's just choose not to be in the singles feed and need, but it still help your friends to find a perfect match!.There is someone for everyone!",
+      languages: [
+        {
+          name: "Kotlin",
+          iconifyClass: "cib:kotlin",
+        },
+      ],
+      links: [
+        
+      ],
+    },
+    {
+      id: "6",
+      name: "Readrly",
+      subtitle: "Education app",
+      image: "/readrly/bg.png",
+      screenshots: [
+        "/readrly/1.png",
+        "/readrly/2.png",
+        "/readrly/3.png",
+        "/readrly/4.png",
+        "/readrly/5.png",
+        "/readrly/6.png",
+        "/readrly/7.png",
+        "/readrly/8.png",
+        "/readrly/9.png",
+        "/readrly/10.png",
+        "/readrly/11.png",
+        
+      ],
+      description:
+        "This application is designed specifically for children aged 5-11 years old, focusing on primary school years encompassing classes 1-6. Upon selecting their grade, users will access proper content related to Vocabulary, Fluency, Decoding, Comprehension, and Leadership. Children can engage in lessons, earn points, and receive badges upon completing different levels. The Leadership section includes a leaderboard showcasing users' scores based on the challenges they have completed, fostering a sense of achievement and healthy competition.",
+      languages: [
+        {
+          name: "Kotlin",
+          iconifyClass: "cib:kotlin",
+        },
+      ],
+      links: [
+        
+      ],
+    },
+    {
+      id: "7",
+      name: "Jetson",
+      subtitle: "Startup Simulator",
+      image: "/jetson/bg.jpeg",
+      screenshots: [
+        "/jetson/1.webp",
+        "/jetson/2.webp",
+        "/jetson/3.webp",
+        "/jetson/4.webp",
+        "/jetson/5.webp",
+        "/jetson/6.webp",
+        "/jetson/7.webp",
+        "/jetson/8.webp",
+        "/jetson/9.webp",
+        "/jetson/10.webp",
+        "/jetson/11.webp",
+        
+      ],
+      description:
+        "Grow an idea into your dream business with Jetson, the ultimate business accelerator for aspiring entrepreneurs! Jetson is a fun, free way for entrepreneurs to create sound business strategies, role-play key stakeholder conversations and learn the tactics/terms of entrepreneurship. Navigate the thrilling journey from idea to IPO through immersive role-playing, and learn about startup buzzwords, technology case studies, product development, venture capital, artificial intelligence, business strategy, and more.",
+      languages: [
+        {
+          name: "React Native",
+          iconifyClass: "simple-icons:react",
         },
         {
-          name: "Augmented Reality",
-          iconifyClass: "bi:badge-ar",
+          name: "Redux",
+          iconifyClass: "simple-icons:redux",
         },
       ],
       links: [
         {
           name: "Play Store",
-          url: "https://github.com/harikanani/Keep-Calm-and-Carry-On.github.io",
+          url: "https://play.google.com/store/apps/details?id=io.trystack.Stack.android&hl=en_IN",
           iconifyClass: "mage:playstore",
         },
         {
           name: "App Store",
-          url: "https://github.com/harikanani/Keep-Calm-and-Carry-On.github.io",
-          iconifyClass: "ion:logo-apple-appstore",
-        },
-        {
-          name: "Github",
-          url: "https://github.com/harikanani/Keep-Calm-and-Carry-On.github.io",
-          iconifyClass: "ri:github-fill",
-        },
-        {
-          name: "Devpost",
-          url: "https://devpost.com/software/keep-calm-and-carry-on",
-          iconifyClass: "fluent:window-dev-edit-20-filled",
-        },
-        {
-          name: "Live Demo",
-          url:
-            "https://akshitagupta15june.github.io/Keep-Calm-and-Carry-On.github.io/",
-          iconifyClass: "mdi:web",
-        },
-      ],
-    },
-    {
-      id: "1",
-      name: "YOG4LIFE SOCIAL APP",
-      url: "https://github.com/kevalvavaliya/Yog4Life",
-      description:
-        "An app for helping people their healthy life. Yog4Life Has a feed feature which is help to get information from the folks, Yog4Life has an anonymous chat room to get connected with the world.",
-      languages: [
-        {
-          name: "Flutter",
-          iconifyClass: "logos-flutter",
-        },
-        {
-          name: "NodeJs",
-          iconifyClass: "logos-nodejs",
-        },
-      ],
-      links: [
-        {
-          name: "Github",
-          url: "https://github.com/kevalvavaliya/Yog4Life",
-          iconifyClass: "ri:github-fill",
-        },
-        {
-          name: "Devfolio",
-          url: "https://devfolio.co/projects/yoglife-b20d",
-          iconifyClass: "fluent:window-dev-edit-20-filled",
-        },
-      ],
-    },
-    {
-      id: "2",
-      name: "Adoptisity",
-      url: "https://github.com/kevalvavaliya/Adoptisity",
-      description:
-        "Our mission is to spread awareness about the benefits of adoption and to support LGBT families so that everyone has the chance to have a loving home environment.",
-      languages: [
-        {
-          name: "HTML5",
-          iconifyClass: "logos-html-5",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "logos-css-3",
-        },
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "Wix",
-          iconifyClass: "bxl:wix",
-        },
-      ],
-      links: [
-        {
-          name: "Github",
-          url: "https://github.com/harikanani/Adoptisity",
-          iconifyClass: "ri:github-fill",
-        },
-        {
-          name: "Devpost",
-          url: "https://devpost.com/software/adoptisity",
-          iconifyClass: "fluent:window-dev-edit-20-filled",
-        },
-        {
-          name: "Live Demo",
-          url: "https://rajmahadevwala1.wixsite.com/adoptisity",
-          iconifyClass: "mdi:web",
-        },
-      ],
-    },
-    {
-      id: "3",
-      name: "FinSplit",
-      url: "https://github.com/rajmahadev8/Fin-Split",
-      description:
-        "Split your bills with your friends without any hassle. Manage Group Expenses, Track your expenses, and much more.",
-      languages: [
-        {
-          name: "ReactJS",
-          iconifyClass: "logos-react",
-        },
-        {
-          name: "NodeJs",
-          iconifyClass: "logos-nodejs",
-        },
-      ],
-      links: [
-        {
-          name: "Github",
-          url: "https://github.com/rajmahadev8/Fin-Split",
-          iconifyClass: "ri:github-fill",
-        },
-        {
-          name: "Devpost",
-          url: "https://devpost.com/software/finsplit",
-          iconifyClass: "fluent:window-dev-edit-20-filled",
-        },
-      ],
-    },
-    {
-      id: "4",
-      name: "Emosic",
-      url: "https://github.com/kevalvavaliya/Emosic",
-      description:
-        "An app that plays music according to your mood. Created a playlist management UI and used SpotifyAPI to control player client based on mood detection using ml model.",
-      languages: [
-        {
-          name: "HTML5",
-          iconifyClass: "logos-html-5",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "logos-css-3",
-        },
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-      ],
-      links: [
-        {
-          name: "Github",
-          url: "https://github.com/kevalvavaliya/Emosic",
-          iconifyClass: "ri:github-fill",
-        },
-        {
-          name: "Devpost",
-          url: "https://devpost.com/software/emosic",
-          iconifyClass: "fluent:window-dev-edit-20-filled",
-        },
-      ],
-    },
-    {
-      id: "5",
-      name: "Fileblok",
-      url: "https://github.com/harikanani/Fileblok",
-      description:
-        "Keep your projects moving with seamless transfer experice. FileBlok is a file transfer app that allows you to transfer files from one device to another without any hassle. We built this app using Flutter, Node.js and StoryBlok.",
-      languages: [
-        {
-          name: "Flutter",
-          iconifyClass: "logos-flutter",
-        },
-        {
-          name: "NodeJs",
-          iconifyClass: "logos-nodejs",
-        },
-        {
-          name: "Storyblok",
-          iconifyClass: "logos-storyblok-icon",
-        },
-      ],
-      links: [
-        {
-          name: "Github",
-          url: "https://github.com/harikanani/Fileblok",
-          iconifyClass: "ri:github-fill",
-        },
-        {
-          name: "Devpost",
-          url: "https://devpost.com/software/fileblok",
-          iconifyClass: "fluent:window-dev-edit-20-filled",
-        },
-      ],
-    },
-    {
-      id: "6",
-      name: "BAUDDIK-GEEKS PORTFOLIO",
-      url: "https://github.com/Bauddhik-Geeks/Bauddhik-Geeks.github.io",
-      description:
-        "Awesome Community Portfolio website for Bauddhik-Geeks community",
-      languages: [
-        {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
-        },
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-      ],
-      links: [
-        {
-          name: "Github",
-          url: "https://github.com/Bauddhik-Geeks/Bauddhik-Geeks.github.io",
-          iconifyClass: "ri:github-fill",
-        },
-        {
-          name: "Live Demo",
-          url: "https://bauddhikgeeks.co/",
-          iconifyClass: "mdi:web",
-        },
-      ],
-    },
-    {
-      id: "7",
-      name: "Votechain",
-      url: "https://github.com/abhigoyani/votechain",
-      description:
-        "Awesome Community Portfolio website for Bauddhik-Geeks community",
-      languages: [
-        {
-          name: "Flask",
-          iconifyClass: "logos-flask",
-        },
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "HTML5",
-          iconifyClass: "logos-html-5",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "logos-css-3",
-        },
-        {
-          name: "MongoDB",
-          iconifyClass: "logos-mongodb-icon",
-        },
-      ],
-      links: [
-        {
-          name: "Github",
-          url: "https://github.com/abhigoyani/votechain",
-          iconifyClass: "ri:github-fill",
-        },
+          url: "https://apps.apple.com/us/app/jetson-startup-simulator/id1621242994?mt=8",
+          iconifyClass: "simple-icons:apple",
+        }
       ],
     },
     {
       id: "8",
-      name: "Swag Store",
-      url: "https://github.com/harikanani/e-commerce-frontend",
+      name: "Tokol",
+      subtitle: "Doctor/Patient app",
+      image: "/tokol/bg.png",
+      screenshots: [
+        "/tokol/1.png",
+        "/tokol/2.png",
+        "/tokol/3.png",
+        "/tokol/4.png",
+        "/tokol/5.png",
+        "/tokol/6.png",
+        "/tokol/7.png",
+        "/tokol/8.png",
+        "/tokol/9.png",
+        
+      ],
       description:
-        "An E-commerce website built using MERN[Mongo, Express, React, Node] stack and we have also added stripe payment gateway integration [in test mode].",
+        "Tokol is a doctor-patient app where doctors can invite patients to register and assign personalized protocols consisting of multiple tasks. These tasks may include measuring weight, taking medication, and more. Patients can update their progress, allowing doctors to monitor and track their health information effectively.",
       languages: [
         {
-          name: "ReactJS",
-          iconifyClass: "logos-react",
+          name: "React Native",
+          iconifyClass: "simple-icons:react",
         },
         {
-          name: "NodeJS",
-          iconifyClass: "logos-nodejs",
+          name: "Redux",
+          iconifyClass: "simple-icons:redux",
         },
         {
-          name: "MedusaJS",
-          iconifyClass: "logos-medusa-icon",
+          name: "tRPC",
+          iconifyClass: "simple-icons:trpc",
         },
       ],
       links: [
-        {
-          name: "Github",
-          url: "https://github.com/harikanani/e-commerce-frontend",
-          iconifyClass: "ri:github-fill",
-        },
+        
       ],
-    },
-    {
-      id: "9",
-      name: "node-blockchain",
-      url: "https://github.com/harikanani/node-blockchain",
-      description:
-        "A simple blockchain and cryptocurrency wallet implemented in Node.js and TypeScript (for learning purposes).",
-      languages: [
-        {
-          name: "NodeJS",
-          iconifyClass: "logos-nodejs",
-        },
-        {
-          name: "TypeScript",
-          iconifyClass: "skill-icons:typescript",
-        },
-      ],
-      links: [
-        {
-          name: "Github",
-          url: "https://github.com/harikanani/node-blockchain",
-          iconifyClass: "ri:github-fill",
-        },
-      ],
-    },
-    {
-      id: "10",
-      name: "Know Me Well",
-      url: "https://github.com/harikanani/personal-portfolio",
-      description:
-        "A simple command line interface based quiz app to know more about me :).",
-      languages: [
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "NodeJS",
-          iconifyClass: "logos-nodejs",
-        },
-        {
-          name: "Repl.it",
-          iconifyClass: "logos-replit-icon",
-        },
-      ],
-      links: [
-        {
-          name: "Github",
-          url: "https://github.com/harikanani/personal-portfolio",
-          iconifyClass: "ri:github-fill",
-        },
-      ],
-    },
-    {
-      id: "11",
-      name: "Bloggify",
-      url: "https://github.com/harikanani/Bloggify",
-      description: "A Simple REST API for Blog Application.",
-      languages: [
-        {
-          name: "NodeJS",
-          iconifyClass: "logos-nodejs",
-        },
-      ],
-      links: [
-        {
-          name: "Github",
-          url: "https://github.com/harikanani/Bloggify",
-          iconifyClass: "ri:github-fill",
-        },
-      ],
-    },
-    {
-      id: "12",
-      name: "Stargazzers",
-      url: "https://github.com/harikanani/stargazers",
-      description: "An Unofficial API for GitHub Repo Stars Count",
-      languages: [
-        {
-          name: "NodeJs",
-          iconifyClass: "logos-nodejs",
-        },
-      ],
-      links: [
-        {
-          name: "Github",
-          url: "https://github.com/harikanani/stargazers",
-          iconifyClass: "ri:github-fill",
-        },
-      ],
-    },
-    {
-      id: "13",
-      name: "GitHub Theme Portfolio",
-      url: "https://github.com/harikanani/harikanani.github.io",
-      description:
-        "A Personal Portfolio Website that showcases my work and experience. which is hosted on Github Pages.",
-      languages: [
-        {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
-        },
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "SCSS",
-          iconifyClass: "vscode-icons:file-type-scss2",
-        },
-      ],
-      links: [
-        {
-          name: "Github",
-          url: "https://github.com/harikanani/harikanani.github.io",
-          iconifyClass: "ri:github-fill",
-        },
-        {
-          name: "Live Demo",
-          url: "https://harikanani.github.io/",
-          iconifyClass: "mdi:web",
-        },
-      ],
-    },
-    {
-      id: "10",
-      name: "COVID-19 Tracker",
-      url: "https://github.com/harikanani/Covid19TrackerReact",
-      description:
-        "Simple Covid-19 Tracker made using React and deployed to Vercel.",
-      languages: [
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "ReactJS",
-          iconifyClass: "logos-react",
-        },
-        {
-          name: "HTML5",
-          iconifyClass: "logos-html-5",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "logos-css-3",
-        },
-      ],
-      links: [
-        {
-          name: "Github",
-          url: "https://github.com/harikanani/Covid19TrackerReact",
-          iconifyClass: "ri:github-fill",
-        },
-      ],
-    },
+    }
   ],
 };
 
