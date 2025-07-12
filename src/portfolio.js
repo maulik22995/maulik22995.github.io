@@ -16,7 +16,7 @@ const greeting = {
   full_name: "Maulik Togadiya",
   subTitle: "Your Next Mobile App Developer.",
   resumeLink:
-    "https://drive.google.com/file/d/1Y2P8Ej2NT1D4vgnzJXnNh6MhH-iL4HK2/view?usp=sharing",
+    "https://drive.google.com/file/d/1Y2P8Ej2NT1D4vgnzJXnNh6MhH-iL4HK2/view?usp=drivesdk",
   mail: "mailto:maulik22995@gmail.com",
 };
 
