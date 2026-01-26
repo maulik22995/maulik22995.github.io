@@ -16,16 +16,20 @@ export default function ProjectCard({ repo, theme }) {
   // }
 
   const styles = style({
-    color: "rgb(88, 96, 105)",
-    backgroundColor: "rgb(255, 255, 255)",
-    boxShadow: "rgba(0, 0, 0, 0.2) 0px 10px 30px -15px",
+    color: theme.text,
+    backgroundColor: theme.surfaceElevated || theme.projectCard,
+    boxShadow: `${theme.shadow} 0px 4px 20px -5px`,
     padding: "2rem",
     cursor: "pointer",
-    borderRadius: "25px",
+    borderRadius: "20px",
     height: "100%",
-    transition: "all 0.2s ease-in-out",
+    transition: "all 0.3s cubic-bezier(0.4, 0, 0.2, 1)",
+    border: `1px solid ${theme.border}40`,
     ":hover": {
-      boxShadow: `${theme.imageDark} 0 2px 15px`,
+      boxShadow: `${theme.shadow} 0px 12px 40px -5px`,
+      transform: "translateY(-8px)",
+      border: `1px solid ${theme.accentColor}40`,
+      backgroundColor: theme.hover ? `${theme.hover}10` : theme.surfaceElevated,
     },
   });
 
@@ -36,7 +40,7 @@ export default function ProjectCard({ repo, theme }) {
           {...styles}
           key={repo.id}
           onClick={() => setIsModalOpen(true)}
-          style={{ backgroundColor: theme.projectCard }}
+          style={{ backgroundColor: theme.surfaceElevated || theme.projectCard }}
         >
           <div className="repo-name-div">
             <p className="repo-name" style={{ color: theme.text }}>

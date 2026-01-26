@@ -1,4 +1,4 @@
-/* Change this file to get your personal Porfolio */
+/* Change this file to get your personal Portfolio */
 
 // Website related settings
 const settings = {
@@ -14,7 +14,7 @@ const greeting = {
   logo_name: "Compiling Ideas into Reality",
   nickname: "harry / picleric",
   full_name: "Maulik Togadiya",
-  subTitle: "Your Next Mobile App Developer.",
+  subTitle: "A Senior Mobile App Developer specializing in Android & React Native.",
   resumeLink:
     "https://drive.google.com/file/d/1xgRwGBXBkSunmCxsHSTXQiOn0z69Jf53/view?usp=sharing",
   mail: "mailto:maulik22995@gmail.com",
@@ -123,9 +123,9 @@ const degrees = {
       alt_name: "HGCE",
       duration: "2014 - 2017",
       descriptions: [
-        "⚡ I have studied core subjects like Computer Architecture, Operating System, Computer Networks, etc.",
-        "⚡ I have implemented several projects based on what I've leart under my Computer Engineering course. ",
-        "⚡ I have secured 8.5 CGPA.",
+        "⚡ Studied core subjects including Computer Architecture, Operating Systems, Computer Networks, and more.",
+        "⚡ Implemented several projects based on what I learned during my Computer Engineering course.",
+        "⚡ Secured 8.5 CGPA.",
       ],
       website_link: "https://hgce.org/",
     },
@@ -136,9 +136,9 @@ const degrees = {
       alt_name: "SSGC",
       duration: "2012 - 2014",
       descriptions: [
-        "⚡ I have completed my higher school with 12th science stream.",
-        "⚡ I have lerned common subjects like Physics, Chemistry, Mathematics, etc.",
-        "⚡ I have secured 80% in 12th science stream.",
+        "⚡ Completed higher secondary education with 12th science stream.",
+        "⚡ Studied core subjects including Physics, Chemistry, Mathematics, and more.",
+        "⚡ Secured 80% in 12th science stream.",
       ],
     },
   ],
@@ -190,7 +190,7 @@ const certifications = {
       logo_path: "mlh-logo.svg",
       certificate_link:
         "https://drive.google.com/file/d/1ws7g2Oepu76vDFir6SvR_emFAMSkB2ZQ/view?usp=sharing",
-      alt_name: "Google",
+      alt_name: "Major League Hacking",
       color_code: "#fe0037",
     },
     {
@@ -228,7 +228,7 @@ const certifications = {
 const experience = {
   title: "Experience",
   subtitle: "Work, Projects & Contributions",
-  description:"With 7+ years of experience in Android (Kotlin, Jetpack Compose) and React Native, I have worked on real-world projects from development to deployment. I also enjoy mentoring and sharing knowledge through workshops and discussions.",
+  description:"With 8+ years of experience in Android (Kotlin, Jetpack Compose) and React Native, I have worked on real-world projects from development to deployment. I also enjoy mentoring and sharing knowledge through workshops and discussions.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -241,7 +241,7 @@ const experience = {
           logo_path: "mi.jpg",
           duration: "Sep 2020 - Present",
           location: "Ahmedabad, Gujarat",
-          description: `Worked on multiple projects across various domains like e-commerce, education, and healthcare. Responsible for developing and maintaining Android applications while communicating with clients to understand and implement their requirements. Handled all aspects of the project, from development to deployment, while also mentoring new joiners and managing the team. Focused on debugging, testing, and continuously exploring new technologies to enhance project implementation.`,
+          description: `Led development of multiple projects across e-commerce, education, and healthcare domains. Architected and developed Android applications using Kotlin, Jetpack Compose, and React Native. Collaborated directly with clients to understand requirements and deliver scalable solutions. Managed end-to-end project lifecycle from development to deployment. Mentored junior developers and managed cross-functional teams. Optimized app performance, implemented CI/CD pipelines, and integrated third-party services including Firebase, AWS, and Google APIs.`,
           color: "#0071C5",
         },
         {
@@ -251,7 +251,7 @@ const experience = {
           logo_path: "tristate.jpeg",
           duration: "May 2017 - Jul 2020",
           location: "Ahmedabad, Gujarat",
-          description: `I began my career as an Android Developer at TriState Technology, where I was responsible for developing and maintaining Android applications. I worked on multiple projects, contributing to the company's success and gaining hands-on experience in mobile app development.`,
+          description: `Started my career as an Android Developer, responsible for developing and maintaining Android applications using Java and Kotlin. Worked on multiple client projects, contributing to the company's success while gaining hands-on experience in mobile app development, API integration, and software engineering best practices.`,
           color: "#ee3c26",
         },
       ],
@@ -299,7 +299,7 @@ const projects = {
         "/uptaste/7.png",
       ],
       description:
-        "This is Food ordering and Tiffin based subscription service. where user can subscribe to lunch and dinner of 15 or 30 days package. It Includes: \n ✓ Meal selection with type and time selection\n ✓ Filter meal by categories like, Mexicans .. etc\n ✓ Apply Coupon code to get discount\n ✓ Online payment , COD options while ordering\n ✓ PDF invoice generate\n ✓ Wallet money management",
+        "A comprehensive food ordering and tiffin subscription service where users can subscribe to lunch and dinner packages (15 or 30 days). Features include: \n ✓ Meal selection with type and time preferences\n ✓ Filter meals by categories (Mexican, Indian, Continental, etc.)\n ✓ Apply coupon codes for discounts\n ✓ Multiple payment options (Online payment, COD)\n ✓ PDF invoice generation\n ✓ Wallet money management system",
       languages: [
         {
           name: "Kotlin",
@@ -316,7 +316,7 @@ const projects = {
       ],
     },
     {
-      id: "0",
+      id: "1",
       name: "Yardie",
       subtitle: "On Demand Lawn Mowing and Gardening Service",
       image: "/yardie/bannerBG.png",
@@ -338,7 +338,7 @@ const projects = {
         "/yardie/13.jpg",
       ],
       description:
-        "Yardie offers fast, easy and reliable lawn mowing and gardening solutions at your fingertips. Whether the job involves cutting, pruning or cleaning the yard, a reliable Yardie Partner will do it all while you sit back, relax and enjoy. Get notified when the job is accepted, started and completed. Simply approve the work and pay to the Yardie straight from the App.",
+        "Yardie offers fast, easy, and reliable lawn mowing and gardening solutions at your fingertips. Whether the job involves cutting, pruning, or cleaning the yard, a reliable Yardie Partner will handle it all while you sit back, relax, and enjoy. Get notified when the job is accepted, started, and completed. Simply approve the work and pay the Yardie partner directly from the app.",
       languages: [
         {
           name: "Kotlin",
@@ -349,7 +349,7 @@ const projects = {
       ],
     },
     {
-      id: "1",
+      id: "2",
       name: "Zoomin: Frames, Prints & Gifts",
       subtitle: "Photo printing app",
       image: "/zoomin/logo.webp",
@@ -360,7 +360,7 @@ const projects = {
         "/zoomin/4.webp",
       ],
       description:
-        "Printing photos onto anything(Photo Books, Collage posters, Photo prints, Calendars, Mugs, Magnets, Home decor, Custom bag tag, etc) and everything, this app provides customisation as easy as clicking a button. Perfect for when you're looking to change your decor, treat a friend, or just put a smile on your face.",
+        "Print photos onto anything - Photo Books, Collage Posters, Photo Prints, Calendars, Mugs, Magnets, Home Decor, Custom Bag Tags, and more. This app provides customization as easy as clicking a button. Perfect for when you're looking to change your decor, treat a friend, or just put a smile on your face.",
       languages: [
         {
           name: "Kotlin",
@@ -372,12 +372,6 @@ const projects = {
           name: "Play Store",
           url: "https://play.google.com/store/apps/details?id=com.zoomin.zoominphotoprints&hl=en_IN",
           iconifyClass: "mage:playstore",
-        },
-        {
-          name: "Live Demo",
-          url:
-            "https://uptaste.in/",
-          iconifyClass: "mdi:web",
         }
       ],
     },
@@ -467,7 +461,7 @@ const projects = {
         
       ],
       description:
-        "The JODI is the new dating application that allows your friends and family to interact with you in the matchmaking process! Your friends can get competitive with the Sidekick stats on the number of matches which approved by you. This will make sure that they are choosing the right people for you to connect with! Once the match is suggested, only you can complete the match and begin communication with the other single person if they accept too.If you know your friends and family who is looking for a date, then you become a sidekick user and help to find matches for them with this app! So it's just choose not to be in the singles feed and need, but it still help your friends to find a perfect match!.There is someone for everyone!",
+        "JODI is a unique dating application that allows friends and family to participate in the matchmaking process. Your friends can track their matchmaking success with Sidekick stats showing the number of matches you've approved. This ensures they're choosing the right people for you to connect with. Once a match is suggested, only you can complete the match and begin communication if the other person accepts. If you know friends or family looking for a date, become a Sidekick user and help find matches for them. You can choose not to be in the singles feed while still helping your friends find perfect matches. There's someone for everyone!",
       languages: [
         {
           name: "Kotlin",
@@ -498,7 +492,7 @@ const projects = {
         
       ],
       description:
-        "This application is designed specifically for children aged 5-11 years old, focusing on primary school years encompassing classes 1-6. Upon selecting their grade, users will access proper content related to Vocabulary, Fluency, Decoding, Comprehension, and Leadership. Children can engage in lessons, earn points, and receive badges upon completing different levels. The Leadership section includes a leaderboard showcasing users' scores based on the challenges they have completed, fostering a sense of achievement and healthy competition.",
+        "An educational app designed specifically for children aged 5-11 years, covering primary school classes 1-6. Upon selecting their grade, users access age-appropriate content related to Vocabulary, Fluency, Decoding, Comprehension, and Leadership. Children can engage in interactive lessons, earn points, and receive badges upon completing different levels. The Leadership section includes a leaderboard showcasing users' scores based on completed challenges, fostering achievement and healthy competition.",
       languages: [
         {
           name: "Kotlin",

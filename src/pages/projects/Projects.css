@@ -34,9 +34,14 @@
   font-size: 56px;
   font-weight: 400;
   font-family: "Google Sans Medium";
-  line-height: 1.1;
+  line-height: 1.2;
   text-align: center;
   margin-top: 80px;
+  margin-bottom: 20px;
+  background: linear-gradient(135deg, #E3405F 0%, #FC1056 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .projects-heading-sub-text {
@@ -57,11 +62,12 @@
 
 .repo-cards-div-main {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1rem 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 2rem;
   margin-left: 40px;
   margin-right: 40px;
   margin-top: 60px;
+  padding-bottom: 40px;
 }
 
 @media (max-width: 1380px) {
@@ -97,9 +103,10 @@
   }
 
   .repo-cards-div-main {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 30px;
+    gap: 1.5rem;
   }
 }

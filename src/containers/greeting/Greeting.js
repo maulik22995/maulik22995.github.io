@@ -12,9 +12,10 @@ export default function Greeting(props) {
   const history = useHistory();
 
   const styles = style({
-    backgroundColor: `${theme.accentBright}`,
+    backgroundColor: theme.accentBright,
     ":hover": {
-      boxShadow: `0 5px 15px ${theme.accentBright}`,
+      boxShadow: `0 6px 20px ${theme.shadow || theme.accentBright}80`,
+      backgroundColor: theme.accentColor,
     },
   });
 

@@ -18,16 +18,16 @@ function Header(props) {
     marginLeft: "15px",
     paddingTop: "5px",
     borderRadius: "50%",
-    border: "none",
+    border: `1px solid ${props.theme.border}40`,
     alignItems: "center",
     justifyContent: "center",
-    backgroundColor: props.theme.name === "light" ? "#E3405F" : "#292C3F",
+    backgroundColor: props.theme.accentColor,
     outline: "none",
-    transition: "all 0.2s ease-in-out",
+    transition: "all 0.3s cubic-bezier(0.4, 0, 0.2, 1)",
     ":hover": {
-      boxShadow: `0 3px 8px ${
-        props.theme.name === "light" ? "#F7D774" : "#646464"
-      }`,
+      boxShadow: `0 4px 12px ${props.theme.shadow}`,
+      transform: "scale(1.05)",
+      backgroundColor: props.theme.accentBright,
     },
   });
 
@@ -62,10 +62,17 @@ function Header(props) {
       />
     );
 
+  const headerStyle = {
+    backgroundColor: theme.surface ? `${theme.surface}E6` : (theme.name === "light" 
+      ? "rgba(255, 255, 255, 0.9)" 
+      : "rgba(15, 23, 42, 0.85)"),
+    borderBottom: `1px solid ${theme.border}40`,
+  };
+
   return (
     <Fade top duration={1000} distance="20px">
       <div>
-        <header className="header">
+        <header className="header" style={headerStyle}>
           <NavLink to={link} tag={Link} className="logo">
             <span style={{ color: theme.text }}></span>
             <Fade left duration={2000}>

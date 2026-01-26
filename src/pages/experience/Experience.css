@@ -33,9 +33,14 @@
   font-size: 56px;
   font-weight: 400;
   font-family: "Google Sans Medium";
-  line-height: 1.1;
+  line-height: 1.2;
   text-align: center;
   margin-top: 80px;
+  margin-bottom: 20px;
+  background: linear-gradient(135deg, #E3405F 0%, #FC1056 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .experience-heading-sub-text {

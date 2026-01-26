@@ -4,9 +4,14 @@
 
 .skills-header {
   font-size: 60px;
-  line-height: 1.1;
+  line-height: 1.2;
   font-family: "Google Sans Regular";
   text-align: center;
+  background: linear-gradient(135deg, #E3405F 0%, #FC1056 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 20px;
 }
 
 .skills-text {
