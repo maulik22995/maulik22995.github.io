@@ -498,6 +498,10 @@ const projects = {
           name: "Kotlin",
           iconifyClass: "cib:kotlin",
         },
+        {
+          name : "Jetpack compose",
+          iconifyClass: "devicon-plain:jetpackcompose",
+        }
       ],
       links: [
         
@@ -582,6 +586,93 @@ const projects = {
       ],
       links: [
         
+      ],
+    },
+    {
+      id: "9",
+      name:"Vorsa",
+      subtitle:"training companion for football players",
+      image: "/vorsa/bg.webp",
+      screenshots: [
+        "/vorsa/1.png",
+        "/vorsa/2.png",
+        "/vorsa/3.png",
+        "/vorsa/4.png",
+        "/vorsa/5.png",
+        "/vorsa/6.png",
+        "/vorsa/7.png",
+        "/vorsa/8.png",
+        "/vorsa/9.png",
+        "/vorsa/10.png",
+        "/vorsa/11.png",
+        "/vorsa/12.png",
+        "/vorsa/13.png",
+        "/vorsa/14.png",
+        "/vorsa/15.png",
+        "/vorsa/16.png",
+        "/vorsa/17.png",
+        "/vorsa/18.png",
+        "/vorsa/19.png",
+      ],
+      description:
+        "Vorsa is a training companion for football players who want structure, clarity and consistent support in their development.The app enables players to upload practice videos, complete assigned drills and receive personalised feedback from their coach.Everything is organised in one place so that players can focus on improving their game rather than managing their workload.",
+      languages: [
+        {
+          name: "React Native",
+          iconifyClass: "simple-icons:react",
+        },
+        {
+          name:"Next JS",
+          iconifyClass: "simple-icons:nextdotjs",
+        }],
+        links: [
+          {
+            name: "Play Store",
+            url: "https://play.google.com/store/apps/details?id=com.vorsa.football",
+            iconifyClass: "mage:playstore",
+          },
+          {
+            name: "Live Demo",
+            url:
+              "https://www.vorsa.app/",
+            iconifyClass: "mdi:web",
+          }
+        ],
+    },{
+      id: "10",
+      name:"Fint Invest",
+      subtitle:"Investment app",
+      image: "/fint/bg.webp",
+      screenshots: [
+        "/fint/1.png",
+        "/fint/2.png",
+        "/fint/3.png",
+        "/fint/4.png",
+        "/fint/5.png",
+        "/fint/6.png",
+        "/fint/7.png",
+        "/fint/8.png",
+        "/fint/9.png",
+        "/fint/10.png",
+      ],
+      description:
+      "Fint helps you invest with confidence from day one. It’s easy to feel overwhelmed by all the noise and hype around investing. Fint makes your first step simple - no jargon, no guesswork. Just straightforward portfolios designed for long-term growth.Fints Investment portfolios are built using expert-selected Exchange Traded Funds (ETFs) - collections of investments combined into a single fund - designed to support long-term growth and help manage risk.Portfolio themes add a ‘tilt’ to your investment - a small focus on areas like AI, gaming, or clean energy, while keeping the rest of your investment spread across global markets and forward-thinking companies.Think of it like tilting a scale: you’re giving more weight to an industry you believe in, without putting all your eggs in one basket.",
+    languages: [
+      {
+        name: "React Native",
+        iconifyClass: "simple-icons:react",
+      }],
+      links: [
+        {
+          name: "Play Store",
+          url: "https://play.google.com/store/apps/details?id=com.ironmarketltd.fint&hl=en",
+          iconifyClass: "mage:playstore",
+        },
+        {
+          name: "App Store",
+          url: "https://apps.apple.com/gb/app/fint-invest/id6464298163",
+          iconifyClass: "simple-icons:apple",
+        }
       ],
     }
   ],
