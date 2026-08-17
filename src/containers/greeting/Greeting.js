@@ -7,6 +7,8 @@ import { useHistory } from "react-router-dom";
 import FeelingProud from "./FeelingProud";
 import { style } from "glamor";
 
+import KeyStats from "../../components/KeyStats/KeyStats";
+
 export default function Greeting(props) {
   const theme = props.theme;
   const history = useHistory();
@@ -54,6 +56,7 @@ export default function Greeting(props) {
             <FeelingProud theme={theme} />
           </div>
         </div>
+        <KeyStats theme={theme} />
       </div>
     </Fade>
   );

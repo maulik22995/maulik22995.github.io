@@ -8,6 +8,8 @@ import "./ContactComponent.css";
 import { greeting, contactPageData } from "../../portfolio.js";
 import { style } from "glamor";
 
+import ContactForm from "../../components/ContactForm/ContactForm";
+
 const ContactData = contactPageData.contactSection;
 const blogSection = contactPageData.blogSection;
 
@@ -53,12 +55,16 @@ function Contact(props) {
               <SocialMedia />
               <br />
               <br />
-              <a {...styles} className="general-btn" href={greeting.resumeLink}>
+              <a {...styles} className="general-btn" href={greeting.resumeLink} target="_blank" rel="noopener noreferrer">
                 See my Resume
               </a>
             </div>
           </div>
         </Fade>
+
+        {/* Contact Form & Direct Email Card */}
+        <ContactForm theme={theme} email={greeting.gmail} />
+
         <Fade bottom duration={1000} distance="40px">
           <div className="blog-heading-div">
             <div className="blog-heading-text-div">

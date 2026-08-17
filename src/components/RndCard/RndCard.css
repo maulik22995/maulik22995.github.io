@@ -1,0 +1,145 @@
+.rnd-card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  border: 1px solid transparent;
+  padding: 1.5rem;
+  height: 100%;
+  transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  text-align: left;
+}
+
+.rnd-card:hover {
+  transform: translateY(-8px);
+  border-color: rgba(127, 82, 255, 0.4);
+}
+
+.rnd-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.25rem;
+}
+
+.rnd-icon-badge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #7f52ff 0%, #e3405f 100%);
+  color: #ffffff;
+  box-shadow: 0 4px 14px rgba(127, 82, 255, 0.4);
+  flex-shrink: 0;
+}
+
+.rnd-subtitle-badge {
+  font-size: 0.82rem;
+  font-weight: 700;
+  padding: 0.35rem 0.9rem;
+  border-radius: 20px;
+  letter-spacing: 0.5px;
+  background: linear-gradient(135deg, #7f52ff 0%, #4f46e5 100%);
+  color: #ffffff;
+  box-shadow: 0 3px 10px rgba(127, 82, 255, 0.35);
+  display: inline-flex;
+  align-items: center;
+}
+
+.rnd-media-container {
+  width: 100%;
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 1.25rem;
+  background: #000;
+  aspect-ratio: 16/9;
+}
+
+.rnd-media-container.iframe-container {
+  aspect-ratio: auto;
+  min-height: 415px;
+}
+
+.rnd-video-player,
+.rnd-iframe-player {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: none;
+}
+
+.rnd-placeholder-banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  width: 100%;
+  aspect-ratio: 16/9;
+  border-radius: 14px;
+  border: 1px dashed transparent;
+  margin-bottom: 1.25rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.rnd-card-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.rnd-card-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin: 0 0 0.5rem 0;
+  line-height: 1.35;
+}
+
+.rnd-card-desc {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 1.25rem;
+}
+
+.rnd-tech-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: auto;
+  margin-bottom: 1.25rem;
+}
+
+.rnd-tech-tag {
+  font-size: 0.78rem;
+  font-weight: 500;
+  padding: 0.25rem 0.65rem;
+  border-radius: 12px;
+  border: 1px solid transparent;
+}
+
+.rnd-card-footer {
+  margin-top: auto;
+}
+
+.rnd-linkedin-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  width: 100%;
+  padding: 0.7rem 1.25rem;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: all 0.25s ease;
+}
+
+.rnd-linkedin-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 14px rgba(10, 102, 194, 0.4);
+  color: #ffffff !important;
+  text-decoration: none;
+}

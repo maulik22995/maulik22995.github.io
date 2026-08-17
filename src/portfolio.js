@@ -678,6 +678,126 @@ const projects = {
   ],
 };
 
+const rndHeader = {
+  title: "R&D & Tech Demos",
+  subtitle: "Mobile Innovations, Proofs of Concept & LinkedIn Technical Research",
+  description:
+    "Here are some of my research & development experiments, technical proof-of-concepts, custom UI/UX animations, and performance benchmark demos shared on LinkedIn.",
+  avatar_image_path: "projects_image.svg",
+};
+
+const rndDemos = {
+  data: [
+    {
+      id: "rnd-1",
+      title: "CryptoMarket - Kotlin Multiplatform Crypto Tracking App",
+      subtitle: "Kotlin Multiplatform & Compose UI",
+      description:
+        "CryptoMarket is a Kotlin Multiplatform (KMP) crypto tracking app demonstrating 100% shared business logic, data models, Ktor API networking, Room database caching, and unified Compose Multiplatform UI running seamlessly across Android & iOS.",
+      tech: [
+        "Kotlin Multiplatform",
+        "Compose Multiplatform",
+        "Ktor Client",
+        "Room DB",
+        "Coroutines",
+        "Flow",
+        "MVVM",
+        "Android & iOS"
+      ],
+      linkedInUrl:
+        "https://www.linkedin.com/posts/kotlin-multiplatform-updates-and-showcases_%F0%9D%97%96%F0%9D%97%BF%F0%9D%98%86%F0%9D%97%BD%F0%9D%98%81%F0%9D%97%BC%F0%9D%97%A0%F0%9D%97%AE%F0%9D%97%BF%F0%9D%97%B8%F0%9D%97%B2%F0%9D%98%81-by-maulik-togadiya-ugcPost-7439298709336535041-JyLZ",
+      embedUrl:
+        "https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7439298709336535041?compact=1",
+      videoUrl: "",
+    },
+    {
+      id: "rnd-2",
+      title: "Interactive 3D Earth & Globe Experience in React Native",
+      subtitle: "React Native, Expo, Three.js & R3F",
+      description:
+        "Built a fully interactive 3D Earth experience running across iOS, Android, and Web from a single React Native codebase. Features rotation, pinch-to-zoom & inertial gestures, object-centric camera zooming, geographic region detection, dynamic 2K → 4K → 8K texture LOD, animated 3D markers & network arcs, and GeoJSON state highlighting.",
+      tech: [
+        "React Native",
+        "Expo",
+        "Three.js",
+        "React Three Fiber",
+        "ExpoWeb",
+        "Reanimated",
+        "GeoJSON"
+      ],
+      linkedInUrl:
+        "https://www.linkedin.com/posts/maulik-togadiya_reactnative-expo-expoweb-activity-7481637991061397504-4_hi",
+      embedUrl:
+        "https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7481637918332166144?compact=1",
+      videoUrl: "",
+    },
+    {
+      id: "rnd-3",
+      title: "Interactive 3D Product & Chair Customizer",
+      subtitle: "3D E-Commerce & Real-time Material Swap",
+      description:
+        "Built an interactive 3D Chair Customizer in React Native enabling real-time fabric & material texture switching directly on 3D GLB models. Renders realistic PBR material properties (normal, roughness, AO, metalness maps) with free pan rotation & pinch-to-zoom running natively on iOS & Android.",
+      tech: [
+        "React Native",
+        "Expo",
+        "Three.js",
+        "React Three Fiber",
+        "Drei",
+        "GLB 3D",
+        "Reanimated"
+      ],
+      linkedInUrl:
+        "https://www.linkedin.com/posts/maulik-togadiya_reactnative-expo-threejs-activity-7482992342895890432-VB-g",
+      embedUrl:
+        "https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7482840234200727552?compact=1",
+      videoUrl: "",
+    },
+    {
+      id: "rnd-4",
+      title: "Interactive 3D Human Anatomy Viewer",
+      subtitle: "Medical Education & BVH 3D Raycasting",
+      description:
+        "Created an interactive 3D Human Anatomy viewer in React Native featuring detailed skeleton, skull, exploded skull, upper limb, and hand models. Implemented BVH-accelerated raycasting (three-mesh-bvh) for lightning-fast touch raycasting on high-poly meshes, dynamic 3D tracking labels, and structure category toggles.",
+      tech: [
+        "React Native",
+        "Expo",
+        "Three.js",
+        "React Three Fiber",
+        "BVH Raycasting",
+        "MedicalTech",
+        "3D Anatomy"
+      ],
+      linkedInUrl:
+        "https://www.linkedin.com/posts/maulik-togadiya_reactnative-expo-threejs-activity-7485166680122351616-F4pK",
+      embedUrl:
+        "https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7485008166276042752?compact=1",
+      videoUrl: "",
+    },
+    {
+      id: "rnd-5",
+      title: "@mindinventory/react-native-nitro-realtime-audio",
+      subtitle: "Open Source Library & Nitro Modules (v1.4.0)",
+      description:
+        "Co-authored & open-sourced a high-performance React Native library for real-time PCM audio streaming powered by Nitro Modules. Features native Voice Activity Detection (VAD) with live RMS values & speech detection running on the C++/Native layer, native Audio Session management (Recording, Playback, Duplex), designed for OpenAI Realtime API & Gemini Live.",
+      tech: [
+        "Open Source",
+        "React Native",
+        "Nitro Modules",
+        "Voice AI",
+        "C++",
+        "Kotlin",
+        "Swift",
+        "OpenAI / Gemini"
+      ],
+      linkedInUrl:
+        "https://www.linkedin.com/posts/maulik-togadiya_reactnative-opensource-nitromodules-activity-7490406214929924097-dRyO",
+      embedUrl:
+        "https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7490395556222218240?compact=1",
+      videoUrl: "",
+    },
+  ],
+};
+
 export {
   settings,
   greeting,
@@ -689,4 +809,6 @@ export {
   projectsHeader,
   contactPageData,
   projects,
+  rndHeader,
+  rndDemos,
 };

@@ -176,6 +176,15 @@
   transform: translateY(-2px);
 }
 
+/* R&D Demos styles */
+.rnd:hover,
+.rnd.selected {
+  box-shadow: 0 4px 15px rgba(127, 82, 255, 0.4);
+  background-color: #7f52ff;
+  color: #ffffff !important;
+  transform: translateY(-2px);
+}
+
 /* Contact & Resume styles */
 .cr:hover,
 .cr.selected {
@@ -186,7 +195,7 @@
 }
 
 /* Remove any duplicate margin/transition declarations */
-.homei, .ec, .xp, .projects, .cr {
+.homei, .ec, .xp, .projects, .rnd, .cr {
   margin: 2px 5px 20px;
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   color: #ffffff;
