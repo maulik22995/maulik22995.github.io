@@ -11,6 +11,8 @@
   margin: 0px auto;
   margin-top: 2rem;
   display: block;
+  position: relative;
+  z-index: 1;
 }
 
 .greeting-main {

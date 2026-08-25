@@ -8,6 +8,7 @@ import FeelingProud from "./FeelingProud";
 import { style } from "glamor";
 
 import KeyStats from "../../components/KeyStats/KeyStats";
+import ThreeBackground from "../../components/ThreeBackground/ThreeBackground";
 
 export default function Greeting(props) {
   const theme = props.theme;
@@ -24,6 +25,7 @@ export default function Greeting(props) {
   return (
     <Fade bottom duration={2000} distance="40px">
       <div className="greet-main" id="greeting">
+        <ThreeBackground theme={theme} />
         <div className="greeting-main">
           <div className="greeting-text-div">
             <div>

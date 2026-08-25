@@ -2,18 +2,20 @@ import React from "react";
 import "./RndCard.css";
 import { Fade } from "react-reveal";
 import { FaLinkedin, FaExternalLinkAlt, FaFlask, FaPlayCircle } from "react-icons/fa";
+import TiltCard from "../TiltCard/TiltCard";
 
 export default function RndCard({ demo, theme }) {
   return (
     <Fade bottom duration={1500} distance="40px">
-      <div
-        className="rnd-card"
-        style={{
-          backgroundColor: theme.surfaceElevated || theme.projectCard || "#171c28",
-          borderColor: `${theme.border || "#2d3748"}50`,
-          boxShadow: `0 8px 30px -5px ${theme.shadow || "rgba(0,0,0,0.3)"}`,
-        }}
-      >
+      <TiltCard maxTilt={10} scale={1.02}>
+        <div
+          className="rnd-card"
+          style={{
+            backgroundColor: theme.surfaceElevated || theme.projectCard || "#171c28",
+            borderColor: `${theme.border || "#2d3748"}50`,
+            boxShadow: `0 8px 30px -5px ${theme.shadow || "rgba(0,0,0,0.3)"}`,
+          }}
+        >
         <div className="rnd-card-header">
           <div className="rnd-icon-badge">
             <FaFlask size={20} />
@@ -99,6 +101,7 @@ export default function RndCard({ demo, theme }) {
           )}
         </div>
       </div>
-    </Fade>
-  );
+    </TiltCard>
+  </Fade>
+);
 }

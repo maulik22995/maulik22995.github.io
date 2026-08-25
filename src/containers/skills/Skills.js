@@ -2,6 +2,7 @@ import React from "react";
 import "./Skills.css";
 import SkillSection from "./SkillSection";
 import { Fade } from "react-reveal";
+import TechSphere3D from "../../components/TechSphere3D/TechSphere3D";
 
 export default function Skills(props) {
   const theme = props.theme;
@@ -14,6 +15,9 @@ export default function Skills(props) {
           </h1>
         </Fade>
       </div>
+      <Fade bottom duration={2000}>
+        <TechSphere3D theme={theme} />
+      </Fade>
       <SkillSection theme={theme} />
     </div>
   );

@@ -6,17 +6,9 @@ import { themes } from "./theme";
 import { GlobalStyles } from "./global";
 import { CursorProvider } from "react-cursor-custom";
 import { settings } from "./portfolio";
+import ScrollScrubber from "./components/ScrollScrubber/ScrollScrubber";
 
 function App() {
-  // useEffect(() => {
-  //   if (settings.googleTrackingID) {
-  //     ReactGA.initialize(settings.googleTrackingID, {
-  //       testMode: process.env.NODE_ENV === "test",
-  //     });
-  //     ReactGA.pageview(window.location.pathname + window.location.search);
-  //   }
-  // }, []);
-
   const [theme, setTheme] = useState(localStorage.getItem("theme") || "dark");
   const useCursor = settings.useCustomCursor;
 
@@ -24,6 +16,7 @@ function App() {
     <ThemeProvider theme={themes[theme]}>
       <>
         <GlobalStyles />
+        <ScrollScrubber theme={themes[theme]} />
         <div>
           {useCursor ? (
             <CursorProvider

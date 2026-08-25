@@ -9,6 +9,19 @@ import { style } from "glamor";
 
 function Header(props) {
   const theme = props.theme;
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  React.useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 25) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   const styles = style({
     cursor: "pointer",
@@ -63,16 +76,23 @@ function Header(props) {
     );
 
   const headerStyle = {
-    backgroundColor: theme.surface ? `${theme.surface}E6` : (theme.name === "light" 
-      ? "rgba(255, 255, 255, 0.9)" 
-      : "rgba(15, 23, 42, 0.85)"),
-    borderBottom: `1px solid ${theme.border}40`,
+    backgroundColor: isScrolled
+      ? (theme.name === "light" ? "rgba(255, 255, 255, 0.95)" : "rgba(15, 23, 42, 0.92)")
+      : (theme.surface ? `${theme.surface}E6` : (theme.name === "light" 
+        ? "rgba(255, 255, 255, 0.9)" 
+        : "rgba(15, 23, 42, 0.85)")),
+    borderBottom: isScrolled
+      ? `1px solid ${theme.accentColor || "#7F52FF"}60`
+      : `1px solid ${theme.border}40`,
+    boxShadow: isScrolled
+      ? `0 10px 30px -10px ${theme.shadow || "rgba(0,0,0,0.5)"}`
+      : "none",
   };
 
   return (
     <Fade top duration={1000} distance="20px">
       <div>
-        <header className="header" style={headerStyle}>
+        <header className={`header ${isScrolled ? "scrolled" : ""}`} style={headerStyle}>
           <NavLink to={link} tag={Link} className="logo">
             <span style={{ color: theme.text }}></span>
             <Fade left duration={2000}>
