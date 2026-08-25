@@ -1,14 +1,22 @@
 import React, { useState, useRef } from "react";
 import "./TiltCard.css";
 
-export default function TiltCard({ children, maxTilt = 12, scale = 1.03, className = "" }) {
+export default function TiltCard({ children, maxTilt = 12, scale = 1.03, className = "", disabled = false }) {
   const cardRef = useRef(null);
   const [transformStyle, setTransformStyle] = useState("perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1)");
   const [glareStyle, setGlareStyle] = useState({ opacity: 0 });
   const [isHovered, setIsHovered] = useState(false);
 
   const handleMouseMove = (e) => {
-    if (!cardRef.current) return;
+    if (disabled || !cardRef.current) return;
+
+    // If mouse moves directly over an iframe or iframe container, gently reset tilt so iframe clicks operate perfectly
+    if (e.target && (e.target.tagName === "IFRAME" || e.target.classList.contains("iframe-container"))) {
+      setTransformStyle("perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1)");
+      setGlareStyle({ opacity: 0 });
+      return;
+    }
+
     const rect = cardRef.current.getBoundingClientRect();
     const width = rect.width;
     const height = rect.height;
@@ -36,6 +44,7 @@ export default function TiltCard({ children, maxTilt = 12, scale = 1.03, classNa
   };
 
   const handleMouseEnter = () => {
+    if (disabled) return;
     setIsHovered(true);
   };
 
@@ -53,7 +62,7 @@ export default function TiltCard({ children, maxTilt = 12, scale = 1.03, classNa
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
       style={{
-        transform: transformStyle,
+        transform: disabled ? "none" : transformStyle,
         transition: isHovered ? "transform 0.08s ease-out" : "transform 0.5s ease-out",
       }}
     >
